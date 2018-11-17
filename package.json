@@ -6,7 +6,7 @@
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css"
   },
-  "author": "Jonas",
+  "author": "Diego Felipe (diegofelipe.io)",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.8.3"
