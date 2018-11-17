@@ -42,11 +42,29 @@ body {
   box-sizing: border-box; }
 
 body {
-  font-family: "Lato", sans-serif;
+  /* A propriedade font-family faz com que seus filhos recebam-a como herança 
+  ela especifica uma lista de fontes a serem aplicadas, da de maior prioridade para a de menor,
+  A seleção de fonte não para quando acha a primeira fonte disponível no sistema do usuário.
+  Ela leva em consideração cada caracter da fonte, se ela não tiver um glifo(letra, acento, sinal)
+  a próxima letra é tentada. Quando uma fonte está disponível apenas em um estilo (negrito, itálico), variante ou tamanho, isso pode influenciar na escolha da fonte.
+
+  Todo css relativo a fonte deve ser especificado no body
+  
+  */
+  font-family: "Lato", sans-serif; 
   font-weight: 400;
   /*font-size: 16px;*/
   font-size: 1.6rem;
+  /* Especifies the line height
+  Default value:	normal
+  Inherited:	yes
+  Animatable:	yes.
+
+  1.7 bellow means that the height of the line will be 1.7 times bigger than the normal
+  
+  */
   line-height: 1.7;
+  /* Sets the color of the textual and decorative parts of the element. */
   color: #777;
   padding: 3rem; }
 
