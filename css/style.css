@@ -203,9 +203,12 @@ body {
     Resize the background image to cover the entire container, even if it ahas to strech or cut
     the image. I noticed that it priorizes to strech the image to the width and cut the height
   contain
+    Resizes the background image to make sure that it's fully visible
    */
   background-size: cover;
-  background-position: top;
+  /* Specifies the initial position for the background image
+    And keep this coordinate(value) visible whenever we resize the browser */
+  background-position: center;
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
